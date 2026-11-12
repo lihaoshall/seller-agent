@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lihaoshall/seller-agent",
+  "title": "Seller Agent — Chinese Book Review Catalog",
+  "description": "Discover original Chinese book reviews via MCP. Buy full articles for 0.95 USDC on Base.",
+  "version": "1.2.0",
+  "repository": {
+    "url": "https://github.com/lihaoshall/seller-agent",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-content-store.sthinking.workers.dev/mcp"
+    }
+  ]
+}
